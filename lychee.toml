@@ -12,6 +12,9 @@ max_concurrency = 8
 # 429(요청 과다)는 링크가 깨진 것이 아니므로 통과로 본다
 accept = ["200..=299", "429"]
 
+# 일부 사이트(tensorflow.org 등)는 쿠키 없이 접속하면 로그인 리다이렉트를 무한 반복하므로 쿠키를 유지한다
+cookie_jar = ".lychee-cookies.json"
+
 # 일부 사이트는 브라우저가 아닌 요청을 막으므로 일반 브라우저처럼 보낸다
 user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 
@@ -20,4 +23,8 @@ exclude = [
   "^https://doi\\.org/10\\.1109/",   # IEEE (LeNet)
   "^https://doi\\.org/10\\.1162/",   # MIT Press (LSTM)
   "^https://wikidocs\\.net/",        # WikiDocs (Cloudflare 보호)
+  "^https://scholar\\.google\\.com/", # Google Scholar (CI 서버 IP 차단)
 ]
+
+# 노트 템플릿의 빈 자리표시 링크(https://arxiv.org/abs/)는 점검하지 않는다
+exclude_path = ["^templates/", "^\\./templates/"]
