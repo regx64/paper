@@ -58,4 +58,4 @@ word2vec은 **비슷한 의미의 단어가 가까운 벡터**를 갖도록 학�
 
 - [Distributed Representations of Words and Phrases and their Compositionality (2013)](https://arxiv.org/abs/1310.4546): 네거티브 샘플링, 빈도 높은 단어 서브샘플링, 구(phrase) 임베딩을 추가한 word2vec의 완성판
 - [GloVe (2014)](https://nlp.stanford.edu/projects/glove/): 단어 동시 등장 통계를 직접 이용하는 또 다른 임베딩 방법
-- [Sequence to Sequence Learning (2014)](README.md): 단어 벡터를 이어 붙여 문장을 다루는 모델
+- [Sequence to Sequence Learning (2014)](2014-seq2seq.md): 단어 벡터를 이어 붙여 문장을 다루는 모델

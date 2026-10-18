@@ -18,11 +18,11 @@
 
 | # | 논문 | 연도 | 난이도 | 링크 | 노트 |
 |---|---|---|---|---|---|
-| 1 | Auto-Encoding Variational Bayes (VAE) | 2013 | 🔴 | [arXiv](https://arxiv.org/abs/1312.6114) | — |
+| 1 | Auto-Encoding Variational Bayes (VAE) | 2013 | 🔴 | [arXiv](https://arxiv.org/abs/1312.6114) | [노트](2013-vae.md) |
 | 2 | ⭐ Generative Adversarial Nets (GAN) | 2014 | 🟢 | [arXiv](https://arxiv.org/abs/1406.2661) | [노트](2014-gan.md) |
 | 3 | ⭐ Denoising Diffusion Probabilistic Models (DDPM) | 2020 | 🔴 | [arXiv](https://arxiv.org/abs/2006.11239) | [노트](2020-ddpm.md) |
-| 4 | Learning Transferable Visual Models From Natural Language Supervision (CLIP) | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2103.00020) | — |
-| 5 | High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion) | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2112.10752) | — |
+| 4 | Learning Transferable Visual Models From Natural Language Supervision (CLIP) | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2103.00020) | [노트](2021-clip.md) |
+| 5 | High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion) | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2112.10752) | [노트](2021-latent-diffusion.md) |
 
 - 1번 VAE와 3번 DDPM은 수식이 많습니다. 처음에는 수식 유도를 건너뛰고 **직관**(그림, 알고리즘 박스)만 잡는 것을 추천합니다.
 - 2번 GAN은 아이디어가 직관적이라, 이 단계를 GAN부터 시작해도 좋습니다.

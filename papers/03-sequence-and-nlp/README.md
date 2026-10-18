@@ -17,13 +17,13 @@
 | # | 논문 | 연도 | 난이도 | 링크 | 노트 |
 |---|---|---|---|---|---|
 | 1 | ⭐ Efficient Estimation of Word Representations in Vector Space (word2vec) | 2013 | 🟢 | [arXiv](https://arxiv.org/abs/1301.3781) | [노트](2013-word2vec.md) |
-| 2 | Long Short-Term Memory (LSTM) | 1997 | 🔴 | [DOI](https://doi.org/10.1162/neco.1997.9.8.1735) | — |
-| 3 | Sequence to Sequence Learning with Neural Networks | 2014 | 🟢 | [arXiv](https://arxiv.org/abs/1409.3215) | — |
-| 4 | Neural Machine Translation by Jointly Learning to Align and Translate | 2014 | 🟡 | [arXiv](https://arxiv.org/abs/1409.0473) | — |
+| 2 | Long Short-Term Memory (LSTM) | 1997 | 🔴 | [DOI](https://doi.org/10.1162/neco.1997.9.8.1735) | [노트](1997-lstm.md) |
+| 3 | Sequence to Sequence Learning with Neural Networks | 2014 | 🟢 | [arXiv](https://arxiv.org/abs/1409.3215) | [노트](2014-seq2seq.md) |
+| 4 | Neural Machine Translation by Jointly Learning to Align and Translate | 2014 | 🟡 | [arXiv](https://arxiv.org/abs/1409.0473) | [노트](2014-bahdanau-attention.md) |
 | 5 | ⭐ Attention Is All You Need (Transformer) | 2017 | 🟡 | [arXiv](https://arxiv.org/abs/1706.03762) | [노트](2017-attention-is-all-you-need.md) |
 | 6 | ⭐ BERT: Pre-training of Deep Bidirectional Transformers | 2018 | 🟡 | [arXiv](https://arxiv.org/abs/1810.04805) | [노트](2018-bert.md) |
-| 7 | Language Models are Unsupervised Multitask Learners (GPT-2) | 2019 | 🟢 | [OpenAI](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | — |
-| 8 | Language Models are Few-Shot Learners (GPT-3) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.14165) | — |
+| 7 | Language Models are Unsupervised Multitask Learners (GPT-2) | 2019 | 🟢 | [OpenAI](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | [노트](2019-gpt-2.md) |
+| 8 | Language Models are Few-Shot Learners (GPT-3) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.14165) | [노트](2020-gpt-3.md) |
 
 - 2번 LSTM 원문은 입문자에게 어렵습니다. 원문 대신 해설 자료로 개념만 잡아도 충분합니다.
 - 5번 Transformer는 이 저장소에서 **가장 중요한 논문 중 하나**입니다. 이후 거의 모든 단계에서 다시 등장합니다.

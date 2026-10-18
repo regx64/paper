@@ -56,5 +56,5 @@
 
 ## 이어서 읽을 논문
 
-- [Batch Normalization (2015)](README.md): 학습을 안정화하는 또 다른 핵심 기법. 배치 정규화를 쓰면 드롭아웃이 덜 필요하다는 주장도 담겨 있다
+- [Batch Normalization (2015)](2015-batch-normalization.md): 학습을 안정화하는 또 다른 핵심 기법. 배치 정규화를 쓰면 드롭아웃이 덜 필요하다는 주장도 담겨 있다
 - [AlexNet (2012)](../02-computer-vision/2012-alexnet.md): 드롭아웃을 대규모로 처음 성공시킨 사례

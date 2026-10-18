@@ -6,7 +6,7 @@
 | 학회/저널 | NeurIPS 2022 |
 | 링크 | [arXiv](https://arxiv.org/abs/2203.02155) |
 | 난이도 | 🟡 |
-| 사전 지식 | GPT-3 (2020), [PPO (2017)](../05-reinforcement-learning/README.md)의 개념, [DQN (2013)](../05-reinforcement-learning/2013-dqn.md) 수준의 강화학습 기초 |
+| 사전 지식 | [GPT-3 (2020)](../03-sequence-and-nlp/2020-gpt-3.md), [PPO (2017)](../05-reinforcement-learning/2017-ppo.md)의 개념, [DQN (2013)](../05-reinforcement-learning/2013-dqn.md) 수준의 강화학습 기초 |
 
 ## 한 줄 요약
 

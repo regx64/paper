@@ -17,13 +17,13 @@
 
 | # | 논문 | 연도 | 난이도 | 링크 | 노트 |
 |---|---|---|---|---|---|
-| 1 | Scaling Laws for Neural Language Models | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2001.08361) | — |
-| 2 | Training Compute-Optimal Large Language Models (Chinchilla) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.15556) | — |
+| 1 | Scaling Laws for Neural Language Models | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2001.08361) | [노트](2020-scaling-laws.md) |
+| 2 | Training Compute-Optimal Large Language Models (Chinchilla) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.15556) | [노트](2022-chinchilla.md) |
 | 3 | ⭐ Training Language Models to Follow Instructions with Human Feedback (InstructGPT) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.02155) | [노트](2022-instructgpt.md) |
-| 4 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | 2022 | 🟢 | [arXiv](https://arxiv.org/abs/2201.11903) | — |
+| 4 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | 2022 | 🟢 | [arXiv](https://arxiv.org/abs/2201.11903) | [노트](2022-chain-of-thought.md) |
 | 5 | ⭐ LoRA: Low-Rank Adaptation of Large Language Models | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2106.09685) | [노트](2021-lora.md) |
-| 6 | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.11401) | — |
-| 7 | LLaMA: Open and Efficient Foundation Language Models | 2023 | 🟢 | [arXiv](https://arxiv.org/abs/2302.13971) | — |
+| 6 | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.11401) | [노트](2020-rag.md) |
+| 7 | LLaMA: Open and Efficient Foundation Language Models | 2023 | 🟢 | [arXiv](https://arxiv.org/abs/2302.13971) | [노트](2023-llama.md) |
 
 - 1~2번은 "어떻게 크게 만들까", 3~4번은 "어떻게 말을 잘 듣게 할까", 5~7번은 "어떻게 활용할까"에 대한 논문입니다.
 - 3번 InstructGPT는 ChatGPT의 직계 조상으로, 이 단계의 핵심입니다.

@@ -61,5 +61,5 @@ ResNet은 이 문제를 단순한 아이디어로 해결해 **152층** 신경망
 
 - [Identity Mappings in Deep Residual Networks (2016)](https://arxiv.org/abs/1603.05027): 같은 저자들이 잔차 블록 안의 순서를 바꿔 더 잘 학습되게 개선
 - [Densely Connected Convolutional Networks (DenseNet, 2016)](https://arxiv.org/abs/1608.06993): 지름길 연결을 극단적으로 확장
-- [U-Net (2015)](README.md): 디퓨전 모델에서 다시 등장하는 구조
+- [U-Net (2015)](2015-u-net.md): 디퓨전 모델에서 다시 등장하는 구조
 - [Attention Is All You Need (2017)](../03-sequence-and-nlp/2017-attention-is-all-you-need.md): 잔차 연결이 트랜스포머에서 어떻게 쓰이는지 확인해 보자
