@@ -142,7 +142,7 @@ paper/
 
 | 단계 | 할 일 | 결과물 |
 |---|---|---|
-| **Phase 1. 뼈대** | 폴더 구조, README, 템플릿, CONTRIBUTING 작성 | 저장소 기본 틀 완성 |
+| **Phase 1. 뼈대** ✅ | 폴더 구조, README, 템플릿, CONTRIBUTING 작성 | 저장소 기본 틀 완성 |
 | **Phase 2. 필수 논문** | ⭐ 13편 노트 작성 + 단계별 README | 입문 로드맵만으로 바로 활용 가능 |
 | **Phase 3. 확장** | 나머지 논문 노트, `HOW_TO_READ.md`, `GLOSSARY.md` | 전체 목록 완성 |
 | **Phase 4. 다듬기 (선택)** | GitHub Actions로 깨진 링크 자동 점검, 로드맵 다이어그램(Mermaid) | 유지보수 자동화 |
