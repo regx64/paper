@@ -1,0 +1,23 @@
+# 링크 점검 도구 lychee 설정
+# 워크플로: .github/workflows/link-check.yml
+
+# 응답이 없거나 느린 사이트를 위해 넉넉하게 기다리고 재시도한다
+timeout = 30
+max_retries = 3
+retry_wait_time = 5
+
+# arXiv 등에 요청이 몰려 차단되지 않도록 동시 요청 수를 제한한다
+max_concurrency = 8
+
+# 429(요청 과다)는 링크가 깨진 것이 아니므로 통과로 본다
+accept = ["200..=299", "429"]
+
+# 일부 사이트는 브라우저가 아닌 요청을 막으므로 일반 브라우저처럼 보낸다
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+# 자동 접속을 차단(403)해서 점검할 수 없는 사이트. 브라우저에서는 정상적으로 열린다.
+exclude = [
+  "^https://doi\\.org/10\\.1109/",   # IEEE (LeNet)
+  "^https://doi\\.org/10\\.1162/",   # MIT Press (LSTM)
+  "^https://wikidocs\\.net/",        # WikiDocs (Cloudflare 보호)
+]

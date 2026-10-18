@@ -1,5 +1,7 @@
 # 📚 AI 입문자를 위한 논문 로드맵
 
+[![Link check](https://github.com/regx64/paper/actions/workflows/link-check.yml/badge.svg)](https://github.com/regx64/paper/actions/workflows/link-check.yml)
+
 AI를 처음 공부하는 사람이 **어떤 순서로, 어떤 논문을, 어떻게 읽으면 좋은지** 정리한 저장소입니다.
 논문마다 한국어 요약 노트를 달아, 원문을 읽기 전에 큰 그림을 먼저 잡을 수 있게 하는 것이 목표입니다.
 
@@ -73,6 +75,7 @@ flowchart LR
 ├── HOW_TO_READ.md       # 논문 읽는 법
 ├── GLOSSARY.md          # 용어집 (한국어/영어)
 ├── CONTRIBUTING.md      # 논문 추가·노트 작성 규칙
+├── lychee.toml          # 링크 점검 설정
 ├── templates/
 │   └── paper-note.md    # 논문 노트 템플릿
 └── papers/
@@ -89,7 +92,7 @@ flowchart LR
 - [x] Phase 1. 뼈대 — 폴더 구조, README, 템플릿, 기여 규칙
 - [x] Phase 2. ⭐ 필수 논문 13편 노트
 - [x] Phase 3. 나머지 논문 22편 노트, 논문 읽는 법, 용어집
-- [ ] Phase 4. 링크 자동 점검
+- [x] Phase 4. 링크 자동 점검 (GitHub Actions, 매주 월요일 + 문서 변경 시)
 
 ## 기여하기
 

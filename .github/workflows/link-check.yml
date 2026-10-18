@@ -1,0 +1,30 @@
+name: Link check
+
+on:
+  push:
+    paths: ["**.md", "lychee.toml", ".github/workflows/link-check.yml"]
+  pull_request:
+    paths: ["**.md", "lychee.toml", ".github/workflows/link-check.yml"]
+  schedule:
+    # 매주 월요일 09:00 (KST) — 외부 사이트 링크가 나중에 깨지는 경우를 잡기 위해
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links in Markdown files
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml --no-progress './**/*.md'
+          fail: true
+        env:
+          # GitHub 링크 점검 시 요청 한도에 걸리지 않도록 토큰 사용
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

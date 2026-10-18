@@ -35,6 +35,16 @@
 | 🟡 보통 | 일부 섹션은 해설 자료의 도움이 필요함 |
 | 🔴 어려움 | 수식이 많아 해설 자료를 먼저 보는 것을 추천 |
 
+## 링크 점검
+
+Markdown 파일을 바꾼 커밋을 푸시하거나 PR을 올리면 GitHub Actions가 모든 링크를 자동으로 점검합니다(매주 월요일에도 한 번 실행). 로컬에서 미리 확인하려면 [lychee](https://github.com/lycheeverse/lychee)를 설치한 뒤 저장소 최상위에서 실행하세요.
+
+```bash
+lychee --config lychee.toml './**/*.md'
+```
+
+브라우저에서는 열리지만 자동 접속을 막는 사이트라서 점검이 실패한다면, [`lychee.toml`](lychee.toml)의 `exclude` 목록에 이유와 함께 추가해 주세요.
+
 ## 커밋 메시지
 
 무엇을 했는지 한 줄로 적습니다.
