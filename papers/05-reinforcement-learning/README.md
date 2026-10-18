@@ -17,7 +17,7 @@
 
 | # | 논문 | 연도 | 난이도 | 링크 | 노트 |
 |---|---|---|---|---|---|
-| 1 | ⭐ Playing Atari with Deep Reinforcement Learning (DQN) | 2013 | 🟡 | [arXiv](https://arxiv.org/abs/1312.5602) | — |
+| 1 | ⭐ Playing Atari with Deep Reinforcement Learning (DQN) | 2013 | 🟡 | [arXiv](https://arxiv.org/abs/1312.5602) | [노트](2013-dqn.md) |
 | 2 | Mastering the Game of Go with Deep Neural Networks and Tree Search (AlphaGo) | 2016 | 🟡 | [Nature](https://www.nature.com/articles/nature16961) | — |
 | 3 | Proximal Policy Optimization Algorithms (PPO) | 2017 | 🔴 | [arXiv](https://arxiv.org/abs/1707.06347) | — |
 

@@ -19,9 +19,9 @@
 |---|---|---|---|---|---|
 | 1 | Scaling Laws for Neural Language Models | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2001.08361) | — |
 | 2 | Training Compute-Optimal Large Language Models (Chinchilla) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.15556) | — |
-| 3 | ⭐ Training Language Models to Follow Instructions with Human Feedback (InstructGPT) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.02155) | — |
+| 3 | ⭐ Training Language Models to Follow Instructions with Human Feedback (InstructGPT) | 2022 | 🟡 | [arXiv](https://arxiv.org/abs/2203.02155) | [노트](2022-instructgpt.md) |
 | 4 | Chain-of-Thought Prompting Elicits Reasoning in Large Language Models | 2022 | 🟢 | [arXiv](https://arxiv.org/abs/2201.11903) | — |
-| 5 | ⭐ LoRA: Low-Rank Adaptation of Large Language Models | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2106.09685) | — |
+| 5 | ⭐ LoRA: Low-Rank Adaptation of Large Language Models | 2021 | 🟡 | [arXiv](https://arxiv.org/abs/2106.09685) | [노트](2021-lora.md) |
 | 6 | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (RAG) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.11401) | — |
 | 7 | LLaMA: Open and Efficient Foundation Language Models | 2023 | 🟢 | [arXiv](https://arxiv.org/abs/2302.13971) | — |
 

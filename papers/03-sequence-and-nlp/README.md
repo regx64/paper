@@ -16,12 +16,12 @@
 
 | # | 논문 | 연도 | 난이도 | 링크 | 노트 |
 |---|---|---|---|---|---|
-| 1 | ⭐ Efficient Estimation of Word Representations in Vector Space (word2vec) | 2013 | 🟢 | [arXiv](https://arxiv.org/abs/1301.3781) | — |
+| 1 | ⭐ Efficient Estimation of Word Representations in Vector Space (word2vec) | 2013 | 🟢 | [arXiv](https://arxiv.org/abs/1301.3781) | [노트](2013-word2vec.md) |
 | 2 | Long Short-Term Memory (LSTM) | 1997 | 🔴 | [DOI](https://doi.org/10.1162/neco.1997.9.8.1735) | — |
 | 3 | Sequence to Sequence Learning with Neural Networks | 2014 | 🟢 | [arXiv](https://arxiv.org/abs/1409.3215) | — |
 | 4 | Neural Machine Translation by Jointly Learning to Align and Translate | 2014 | 🟡 | [arXiv](https://arxiv.org/abs/1409.0473) | — |
-| 5 | ⭐ Attention Is All You Need (Transformer) | 2017 | 🟡 | [arXiv](https://arxiv.org/abs/1706.03762) | — |
-| 6 | ⭐ BERT: Pre-training of Deep Bidirectional Transformers | 2018 | 🟡 | [arXiv](https://arxiv.org/abs/1810.04805) | — |
+| 5 | ⭐ Attention Is All You Need (Transformer) | 2017 | 🟡 | [arXiv](https://arxiv.org/abs/1706.03762) | [노트](2017-attention-is-all-you-need.md) |
+| 6 | ⭐ BERT: Pre-training of Deep Bidirectional Transformers | 2018 | 🟡 | [arXiv](https://arxiv.org/abs/1810.04805) | [노트](2018-bert.md) |
 | 7 | Language Models are Unsupervised Multitask Learners (GPT-2) | 2019 | 🟢 | [OpenAI](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) | — |
 | 8 | Language Models are Few-Shot Learners (GPT-3) | 2020 | 🟡 | [arXiv](https://arxiv.org/abs/2005.14165) | — |
 

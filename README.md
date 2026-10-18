@@ -39,21 +39,21 @@ flowchart LR
 
 ## ⭐ 꼭 읽을 논문 13편
 
-| # | 논문 | 연도 | 난이도 | 단계 |
-|---|---|---|---|---|
-| 1 | [Deep Learning](https://www.nature.com/articles/nature14539) | 2015 | 🟢 | 1 |
-| 2 | [Dropout](https://jmlr.org/papers/v15/srivastava14a.html) | 2014 | 🟢 | 1 |
-| 3 | [Adam](https://arxiv.org/abs/1412.6980) | 2014 | 🟡 | 1 |
-| 4 | [AlexNet](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) | 2012 | 🟢 | 2 |
-| 5 | [ResNet](https://arxiv.org/abs/1512.03385) | 2015 | 🟡 | 2 |
-| 6 | [word2vec](https://arxiv.org/abs/1301.3781) | 2013 | 🟢 | 3 |
-| 7 | [Attention Is All You Need (Transformer)](https://arxiv.org/abs/1706.03762) | 2017 | 🟡 | 3 |
-| 8 | [BERT](https://arxiv.org/abs/1810.04805) | 2018 | 🟡 | 3 |
-| 9 | [GAN](https://arxiv.org/abs/1406.2661) | 2014 | 🟢 | 4 |
-| 10 | [DDPM](https://arxiv.org/abs/2006.11239) | 2020 | 🔴 | 4 |
-| 11 | [DQN](https://arxiv.org/abs/1312.5602) | 2013 | 🟡 | 5 |
-| 12 | [LoRA](https://arxiv.org/abs/2106.09685) | 2021 | 🟡 | 6 |
-| 13 | [InstructGPT](https://arxiv.org/abs/2203.02155) | 2022 | 🟡 | 6 |
+| # | 논문 | 연도 | 난이도 | 단계 | 노트 |
+|---|---|---|---|---|---|
+| 1 | [Deep Learning](https://www.nature.com/articles/nature14539) | 2015 | 🟢 | 1 | [노트](papers/01-foundations/2015-deep-learning.md) |
+| 2 | [Dropout](https://jmlr.org/papers/v15/srivastava14a.html) | 2014 | 🟢 | 1 | [노트](papers/01-foundations/2014-dropout.md) |
+| 3 | [Adam](https://arxiv.org/abs/1412.6980) | 2014 | 🟡 | 1 | [노트](papers/01-foundations/2014-adam.md) |
+| 4 | [AlexNet](https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) | 2012 | 🟢 | 2 | [노트](papers/02-computer-vision/2012-alexnet.md) |
+| 5 | [ResNet](https://arxiv.org/abs/1512.03385) | 2015 | 🟡 | 2 | [노트](papers/02-computer-vision/2015-resnet.md) |
+| 6 | [word2vec](https://arxiv.org/abs/1301.3781) | 2013 | 🟢 | 3 | [노트](papers/03-sequence-and-nlp/2013-word2vec.md) |
+| 7 | [Attention Is All You Need (Transformer)](https://arxiv.org/abs/1706.03762) | 2017 | 🟡 | 3 | [노트](papers/03-sequence-and-nlp/2017-attention-is-all-you-need.md) |
+| 8 | [BERT](https://arxiv.org/abs/1810.04805) | 2018 | 🟡 | 3 | [노트](papers/03-sequence-and-nlp/2018-bert.md) |
+| 9 | [GAN](https://arxiv.org/abs/1406.2661) | 2014 | 🟢 | 4 | [노트](papers/04-generative-models/2014-gan.md) |
+| 10 | [DDPM](https://arxiv.org/abs/2006.11239) | 2020 | 🔴 | 4 | [노트](papers/04-generative-models/2020-ddpm.md) |
+| 11 | [DQN](https://arxiv.org/abs/1312.5602) | 2013 | 🟡 | 5 | [노트](papers/05-reinforcement-learning/2013-dqn.md) |
+| 12 | [LoRA](https://arxiv.org/abs/2106.09685) | 2021 | 🟡 | 6 | [노트](papers/06-large-language-models/2021-lora.md) |
+| 13 | [InstructGPT](https://arxiv.org/abs/2203.02155) | 2022 | 🟡 | 6 | [노트](papers/06-large-language-models/2022-instructgpt.md) |
 
 난이도: 🟢 쉬움 · 🟡 보통 · 🔴 어려움
 
@@ -79,7 +79,7 @@ flowchart LR
 ## 진행 상황
 
 - [x] Phase 1. 뼈대 — 폴더 구조, README, 템플릿, 기여 규칙
-- [ ] Phase 2. ⭐ 필수 논문 13편 노트
+- [x] Phase 2. ⭐ 필수 논문 13편 노트
 - [ ] Phase 3. 나머지 논문 노트, 논문 읽는 법, 용어집
 - [ ] Phase 4. 링크 자동 점검
 
